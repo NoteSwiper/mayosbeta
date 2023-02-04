@@ -1,0 +1,31 @@
+[Info]
+Name=		 MayOS+Beta
+Id=		 abb46C6-dB66d32
+PkgId=		 com.mayos.core
+RegisterId=	 jkf88vb7ajm9ucby36ga78fh93hg
+
+[Resources]
+Res=		 /sys/_res/
+Logo=		 Res/system/logo/
+Ui=		 Res/system/ui/
+
+[System Folders]
+Library=	 /lib/
+BootFolder=	 /boot/
+CompilerFolder=	 /cmp/
+FontFolder=	 /font/
+LanguageFolder=	 /lang/
+ExtensionFolder= /opt/
+ServeFolder=	 /serve/
+Config=		 /sys/_conf/
+Driver=		 /drv/
+Devices=	 /drv/dev/
+Packages=	 /pkg/
+LogFolder=	 /shared/log/
+
+[System Files]
+BootLoader=	 BootFolder/bootLoader.btl
+
+[Update Checking]
+UpdateServer=	 mayos://mayos.com/maysvr/check?id=upd
+UpdateName=	 mayos_updProgram{updateId}

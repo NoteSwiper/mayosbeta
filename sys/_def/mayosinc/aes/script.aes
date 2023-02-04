@@ -1,0 +1,5 @@
+using general;
+local var1 = "Hello World";
+public function {
+  print(HelloWorld)
+}

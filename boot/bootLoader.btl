@@ -1,0 +1,5 @@
+<boot schemaUrl="mayos://schema/btl/2022/">
+  <event e="onStartup()">
+    <execute>/sys/boot/boot.aeapp</execute>
+  </event>
+</boot>
